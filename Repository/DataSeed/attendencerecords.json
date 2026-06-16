@@ -1,0 +1,802 @@
+﻿[
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 95
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 15,
+    "MemberID": 18
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 79
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 8,
+    "MemberID": 46
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 12,
+    "MemberID": 60
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 5,
+    "MemberID": 64
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 7,
+    "MemberID": 50
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 7,
+    "MemberID": 55
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 11,
+    "MemberID": 48
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 5,
+    "MemberID": 92
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 71
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 7,
+    "MemberID": 55
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 3,
+    "MemberID": 40
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 15,
+    "MemberID": 7
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 2,
+    "MemberID": 59
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 8,
+    "MemberID": 96
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 3,
+    "MemberID": 15
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 73
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 8,
+    "MemberID": 7
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 4,
+    "MemberID": 50
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 2,
+    "MemberID": 73
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 2,
+    "MemberID": 23
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 8,
+    "MemberID": 96
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 12,
+    "MemberID": 69
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 25
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 15,
+    "MemberID": 42
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 2,
+    "MemberID": 43
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 2,
+    "MemberID": 39
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 31
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 2,
+    "MemberID": 88
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 9,
+    "MemberID": 22
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 8,
+    "MemberID": 41
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 2,
+    "MemberID": 64
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 11,
+    "MemberID": 65
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 68
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 49
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 11,
+    "MemberID": 92
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 12,
+    "MemberID": 59
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 9,
+    "MemberID": 81
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 6,
+    "MemberID": 61
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 100
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 7,
+    "MemberID": 70
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 47
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 4,
+    "MemberID": 21
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 12,
+    "MemberID": 86
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 76
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 59
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 4,
+    "MemberID": 55
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 8,
+    "MemberID": 48
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 6,
+    "MemberID": 85
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 71
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 5,
+    "MemberID": 45
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 15,
+    "MemberID": 98
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 3,
+    "MemberID": 45
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 15,
+    "MemberID": 18
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 4,
+    "MemberID": 30
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 50
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 13,
+    "MemberID": 73
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 97
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 14,
+    "MemberID": 79
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 14,
+    "MemberID": 33
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 11,
+    "MemberID": 95
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 6,
+    "MemberID": 97
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 2,
+    "MemberID": 100
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 3,
+    "MemberID": 9
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 33
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 94
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 3,
+    "MemberID": 61
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 9,
+    "MemberID": 88
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 8,
+    "MemberID": 55
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 3,
+    "MemberID": 77
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 6,
+    "MemberID": 19
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 11,
+    "MemberID": 30
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 2,
+    "MemberID": 14
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 9,
+    "MemberID": 15
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 47
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 6,
+    "MemberID": 74
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 3,
+    "MemberID": 25
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 12,
+    "MemberID": 95
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 71
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 7,
+    "MemberID": 82
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 26
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 6,
+    "MemberID": 72
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 12,
+    "MemberID": 9
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 12,
+    "MemberID": 87
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 4,
+    "MemberID": 32
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 13,
+    "MemberID": 57
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 5,
+    "MemberID": 26
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 9,
+    "MemberID": 22
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 11,
+    "MemberID": 94
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 10,
+    "MemberID": 73
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 7,
+    "MemberID": 79
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 8,
+    "MemberID": 3
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 7,
+    "MemberID": 81
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 15,
+    "MemberID": 13
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 75
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 1,
+    "MemberID": 56
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 5,
+    "MemberID": 8
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 3,
+    "MemberID": 40
+  },
+  {
+    "CheckInDate": "2026-08-01T08:00:00",
+    "CheckOutDate": "2026-08-01T10:00:00",
+    "Category": "Class",
+    "AttendanceType": "Present",
+    "FitnessClassID": 14,
+    "MemberID": 23
+  }
+]

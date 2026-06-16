@@ -1,0 +1,37 @@
+﻿[
+  {
+    "BranchName": "Branch 1",
+    "Location": "Location 1",
+    "ContactInformation": "01010000001",
+    "OperatingHours": "06:00 AM - 11:00 PM",
+    "CurrentOperationalStatus": "Active"
+  },
+  {
+    "BranchName": "Branch 2",
+    "Location": "Location 2",
+    "ContactInformation": "01010000002",
+    "OperatingHours": "06:00 AM - 11:00 PM",
+    "CurrentOperationalStatus": "Active"
+  },
+  {
+    "BranchName": "Branch 3",
+    "Location": "Location 3",
+    "ContactInformation": "01010000003",
+    "OperatingHours": "06:00 AM - 11:00 PM",
+    "CurrentOperationalStatus": "Active"
+  },
+  {
+    "BranchName": "Branch 4",
+    "Location": "Location 4",
+    "ContactInformation": "01010000004",
+    "OperatingHours": "06:00 AM - 11:00 PM",
+    "CurrentOperationalStatus": "Active"
+  },
+  {
+    "BranchName": "Branch 5",
+    "Location": "Location 5",
+    "ContactInformation": "01010000005",
+    "OperatingHours": "06:00 AM - 11:00 PM",
+    "CurrentOperationalStatus": "Active"
+  }
+]

@@ -1,0 +1,23 @@
+﻿[
+  {
+    "PlanName": "Basic",
+    "Duration": 1,
+    "Fee": 300,
+    "Benefits": "Gym Access",
+    "AccessLevel": "Basic"
+  },
+  {
+    "PlanName": "Standard",
+    "Duration": 3,
+    "Fee": 800,
+    "Benefits": "Gym + Classes",
+    "AccessLevel": "Standard"
+  },
+  {
+    "PlanName": "Premium",
+    "Duration": 12,
+    "Fee": 2500,
+    "Benefits": "All Services",
+    "AccessLevel": "Premium"
+  }
+]
