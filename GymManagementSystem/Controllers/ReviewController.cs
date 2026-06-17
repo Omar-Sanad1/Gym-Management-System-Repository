@@ -24,6 +24,8 @@ namespace GymManagementSystem.Controllers
         [HttpGet("GetAllPagedFiltered")]
         public IActionResult GetAllPagedFiltered([FromQuery] ReviewFiltering reviewFiltering,[FromQuery] PaginationParameters paginationParameters)
         {
+            // Filtering
+
             var reviews = _repo.GetAllFiltered(r =>
             // فلترة ب ReviewDate
             (!reviewFiltering.ReviewDate.HasValue || ((Review)(object)r).ReviewDate == reviewFiltering.ReviewDate)&&
@@ -34,6 +36,24 @@ namespace GymManagementSystem.Controllers
             // فلترة ب MemberID
             (!reviewFiltering.MemberID.HasValue || ((Review)(object)r).MemberID == reviewFiltering.MemberID) 
             );
+
+            // Sorting
+
+            reviews = reviewFiltering.SortBy?.ToLower() switch
+            {
+                "reviewdate" => reviewFiltering.isDescending
+                ? reviews.OrderByDescending(r=>r.ReviewDate)
+                : reviews.OrderBy(r=>r.ReviewDate),
+
+                "rating" => reviewFiltering.isDescending
+                ? reviews.OrderByDescending(r=>r.Rating)
+                : reviews.OrderBy(r=>r.Rating),
+
+                _ => reviews.OrderBy(r=>r.ID)
+            };
+
+
+            // Pagination
 
             var totalreviews = _repo.GetCount();
             var reviewsPaged = _repo.GetAllPaged(paginationParameters.PageNumber, paginationParameters.PageSize);

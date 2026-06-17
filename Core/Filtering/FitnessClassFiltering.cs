@@ -11,7 +11,11 @@ namespace Core.Filtering
         public string? ClassName { get; set; }
         public string? Category { get; set; }
         public string? AssignedTrainer { get; set; }
-        public int? BranchID { get; set; } 
+        public int? BranchID { get; set; }
+
+        // Sorting
+        public string? SortBy { get; set; }
+        public bool isDescending { get; set; }
 
 
 

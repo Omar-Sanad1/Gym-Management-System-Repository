@@ -13,5 +13,9 @@ namespace Core.Filtering
         public decimal? Fee { get; set; }
         public string? Benefits { get; set; }
 
+        // Sorting
+        public string? SortBy { get; set; }
+        public bool isDescending { get; set; }
+
     }
 }

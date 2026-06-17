@@ -24,6 +24,8 @@ namespace GymManagementSystem.Controllers
         [HttpGet("GetAllPagedFiltered")]
         public IActionResult GetAllPagedFiltered([FromQuery] FitnessClassFiltering fitnessClassFiltering,[FromQuery] PaginationParameters paginationParameters)
         {
+            // Filtering
+
             var fitnessClasses = _repo.GetAllFiltered(f =>
             // فلترة ب ClassName
             (string.IsNullOrEmpty(fitnessClassFiltering.ClassName) || ((FitnessClass)(object)f).ClassName == fitnessClassFiltering.ClassName)&&
@@ -34,6 +36,27 @@ namespace GymManagementSystem.Controllers
             // فلترة ب BranchID
             (!fitnessClassFiltering.BranchID.HasValue || ((FitnessClass)(object)f).BranchID == fitnessClassFiltering.BranchID)
             );
+
+            // Sorting
+
+            fitnessClasses = fitnessClassFiltering.SortBy?.ToLower() switch
+            {
+                "classname" => fitnessClassFiltering.isDescending
+                ? fitnessClasses.OrderByDescending(f=>f.ClassName)
+                : fitnessClasses.OrderBy(f=>f.ClassName),
+
+                "duration" => fitnessClassFiltering.isDescending
+                ? fitnessClasses.OrderByDescending(f=>f.Duration)
+                : fitnessClasses.OrderBy(f=>f.Duration),
+
+                "maximumcapacity" => fitnessClassFiltering.isDescending
+                ? fitnessClasses.OrderByDescending(f=>f.MaximumCapacity)
+                : fitnessClasses.OrderBy(f=>f.MaximumCapacity),
+                
+                _ => fitnessClasses.OrderBy(f=>f.ID)
+            };
+
+            // Pagination
 
             var totalFitnessClasses = _repo.GetCount();
             var fitnessClassesPaged = _repo.GetAllPaged(paginationParameters.PageNumber, paginationParameters.PageSize);

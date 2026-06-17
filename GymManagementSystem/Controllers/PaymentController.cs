@@ -22,8 +22,10 @@ namespace GymManagementSystem.Controllers
         }
 
         [HttpGet("GetAllPaymentsPagedFiltered")]
-        public Task<IActionResult> GetAllPaymentsPagedFilteredAsync([FromQuery] PaymentFiltering paymentFiltering,[FromQuery] PaginationParameters paginationParameters)
+        public async Task<IActionResult> GetAllPaymentsPagedFilteredAsync([FromQuery] PaymentFiltering paymentFiltering,[FromQuery] PaginationParameters paginationParameters)
         {
+            // Filtering
+
             var payments = _paymentService.GetAllPaymentsFiltered(p =>
             // فلترة ب TransactionReferenceNumber
             (string.IsNullOrEmpty(paymentFiltering.TransactionReferenceNumber) || ((Payment)(object)(p)).TransactionReferenceNumber == paymentFiltering.TransactionReferenceNumber)&&
@@ -31,8 +33,25 @@ namespace GymManagementSystem.Controllers
             (!paymentFiltering.PaymentDate.HasValue || ((Payment)(object)p).PaymentDate == paymentFiltering.PaymentDate)
             );
 
+            // Sorting
+
+            payments = paymentFiltering.SortBy?.ToLower() switch
+            {
+                "paymentdate" => paymentFiltering.isDescending
+                ? payments.OrderByDescending(p=>p.PaymentDate)
+                : payments.OrderBy(p=>p.PaymentDate),
+
+                "transactionreferencenumber" => paymentFiltering.isDescending
+                ? payments.OrderByDescending(p=>p.TransactionReferenceNumber)
+                : payments.OrderBy(p=>p.TransactionReferenceNumber),
+
+                _ => payments.OrderBy(p=>p.ID)
+            };
+
+            // Pagination
+
             var totalpayments = _paymentService.GetPaymetsCount();
-            var paymentsPaged = _paymentService.GetAllPaymentsPagedAsync(paginationParameters.PageNumber, paginationParameters.PageSize);
+            var paymentsPaged = await _paymentService.GetAllPaymentsPagedAsync(paginationParameters.PageNumber, paginationParameters.PageSize);
 
             var result = new PaginationResponse<PaymentToReturnDTO>
                 (

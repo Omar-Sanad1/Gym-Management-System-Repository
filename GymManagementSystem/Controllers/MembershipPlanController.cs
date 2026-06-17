@@ -24,6 +24,8 @@ namespace GymManagementSystem.Controllers
         [HttpGet("GetAllPagedFiltered")]
         public async Task<IActionResult> GetAllPagedFilteredAsync([FromQuery] MembershipPlanFiltering membershipPlanFiltering,[FromQuery] PaginationParameters paginationParameters)
         {
+            // Filtering
+
             var membershipPlans = _membershipPlanService.GetAllMembershipPlansFiltered(m =>
             // فلترة ب PlanName
             (string.IsNullOrEmpty(membershipPlanFiltering.PlanName) || ((MembershipPlan)(object)(m)).PlanName == membershipPlanFiltering.PlanName)&&
@@ -34,6 +36,27 @@ namespace GymManagementSystem.Controllers
             // فلترة ب Benefits
             (string.IsNullOrEmpty(membershipPlanFiltering.Benefits) || ((MembershipPlan)(object)m).Benefits == membershipPlanFiltering.Benefits)
             );
+
+            // Sorting
+
+            membershipPlans = membershipPlanFiltering.SortBy?.ToLower() switch
+            {
+                "planname" => membershipPlanFiltering.isDescending
+                ? membershipPlans.OrderByDescending(m=>m.PlanName)
+                : membershipPlans.OrderBy(m=>m.PlanName),
+
+                "duration" => membershipPlanFiltering.isDescending
+                ? membershipPlans.OrderByDescending(m=>m.Duration)
+                : membershipPlans.OrderBy(m=>m.Duration),
+
+                "fee" => membershipPlanFiltering.isDescending
+                ? membershipPlans.OrderByDescending(m=>m.Fee)
+                : membershipPlans.OrderBy(m=>m.Fee),
+
+                _ => membershipPlans.OrderBy(m=>m.ID)
+            };
+
+            // Pagination
 
             var totalmembershipPlans = _membershipPlanService.GetMembershipPlansCount();
             var membershipPlansPaged = await _membershipPlanService.GetAllMembershipPlansPagedAsync(paginationParameters.PageNumber, paginationParameters.PageSize);

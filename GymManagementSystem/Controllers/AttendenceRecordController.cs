@@ -24,6 +24,8 @@ namespace GymManagementSystem.Controllers
         [HttpGet("GetAllPagedFiltered")]
         public IActionResult GetAllPagedFiltered([FromQuery]AttendenceRecordFiltering attendenceRecordFiltering, [FromQuery] PaginationParameters paginationParameters)
         {
+            // Filtering
+
             var attendenceRecords = _repo.GetAllFiltered(a =>
             // فلترة ب Category
             (string.IsNullOrEmpty(attendenceRecordFiltering.Category) || ((AttendenceRecord)(object)a).Category==attendenceRecordFiltering.Category)&&
@@ -34,6 +36,27 @@ namespace GymManagementSystem.Controllers
             // فلترة ب MemberID
             (!attendenceRecordFiltering.MemberID.HasValue || ((AttendenceRecord)(object)a).MemberID == attendenceRecordFiltering.MemberID)
             );
+
+            // Sorting
+
+            attendenceRecords = attendenceRecordFiltering.SortBy?.ToLower() switch
+            {
+                "checkindate" => attendenceRecordFiltering.isDescending
+                ? attendenceRecords.OrderByDescending(a=>a.CheckInDate)
+                : attendenceRecords.OrderBy(a=>a.CheckInDate),
+
+                "checkoutdate" => attendenceRecordFiltering.isDescending
+                ? attendenceRecords.OrderByDescending(a=>a.CheckOutDate)
+                : attendenceRecords.OrderBy(a=>a.CheckOutDate),
+
+                "category" => attendenceRecordFiltering.isDescending
+                ? attendenceRecords.OrderByDescending(a=>a.Category)
+                : attendenceRecords.OrderBy(a=>a.Category),
+
+                _ => attendenceRecords.OrderBy(a=>a.ID)
+            };
+
+            // Pagination
 
             var totalAttendenceRecords = _repo.GetCount();
             var attendenceRecordsPaged = _repo.GetAllPaged(paginationParameters.PageNumber, paginationParameters.PageSize);

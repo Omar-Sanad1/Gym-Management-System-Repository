@@ -11,6 +11,10 @@ namespace Core.Filtering
         public DateTime? ReviewDate { get; set; }
         public int? FitnessClassID { get; set; } 
         public int? TrainerID { get; set; } 
-        public int? MemberID { get; set; } 
+        public int? MemberID { get; set; }
+
+        // Sorting
+        public string? SortBy { get; set; }
+        public bool isDescending { get; set; }
     }
 }

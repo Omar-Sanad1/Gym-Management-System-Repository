@@ -24,6 +24,8 @@ namespace GymManagementSystem.Controllers
         [HttpGet("GetAllMembersPagedFiltered")]
         public async Task<IActionResult> GetAllMembersPagedFiltered([FromQuery] MemberFiltering memberFiltering,[FromQuery] PaginationParameters paginationParameters)
         {
+            // Filtering
+
             // 1. جبت كل الMembers
             var members =  _memberService.GetAllMembersFiltered(m =>
             // فلترة بالاسم
@@ -38,7 +40,27 @@ namespace GymManagementSystem.Controllers
             (!memberFiltering.TrainerID.HasValue || ((Member)(object)m).TrainerID == memberFiltering.TrainerID)
             );
 
-            // 2. Pagination
+            // Sorting
+
+            members = memberFiltering.SortBy?.ToLower() switch
+            {
+                "fullname" => memberFiltering.isDescending
+                ? members.OrderByDescending(m => m.FullName)
+                : members.OrderBy(m => m.FullName),
+
+                "dateofbirth" => memberFiltering.isDescending
+                ? members.OrderByDescending(m => m.DateOfBirth)
+                : members.OrderBy(m => m.DateOfBirth),
+
+                "registerationdate" => memberFiltering.isDescending
+                ? members.OrderByDescending(m => m.RegisterationDate)
+                : members.OrderBy(m => m.RegisterationDate),
+
+                _ => members.OrderBy(m => m.ID)
+            };
+
+
+            // Pagination
             var totalMembers = _memberService.GetMembersCount();
             var pagedMembers = await _memberService.GetAllMembersPagedAsync(paginationParameters.PageNumber, paginationParameters.PageSize);
 

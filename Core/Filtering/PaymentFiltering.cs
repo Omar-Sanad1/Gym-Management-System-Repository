@@ -11,5 +11,9 @@ namespace Core.Filtering
         public DateTime? PaymentDate { get; set; }
         public string? TransactionReferenceNumber { get; set; }
 
+        // Sorting
+        public string? SortBy { get; set; }
+        public bool isDescending { get; set; }
+
     }
 }
