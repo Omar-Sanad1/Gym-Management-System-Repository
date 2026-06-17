@@ -27,6 +27,7 @@ A scalable and enterprise-level Gym Management System built with ASP.NET Core We
 - JWT Authentication
 - Filtering & Searching
 - Pagination
+- Sorting
 - Data Seeding
 - Fluent API Configurations
 
